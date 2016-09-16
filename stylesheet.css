@@ -80,8 +80,8 @@ li.dropdown {
     background-color: white;
     width: 960px;
     height: 100%;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    border-right: 3px solid #000033;
+    border-left: 3px solid #000033;
     box-shadow: black 0px 5px 10px;
 }
 
@@ -118,3 +118,4 @@ li.dropdown {
     height: 524.6760982874162px;
     width: 960px;
 }
+
