@@ -119,3 +119,20 @@ li.dropdown {
     width: 960px;
 }
 
+.thumbnails img {
+	height: 70px;
+	border: 4px solid #555;
+	padding: 25px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
