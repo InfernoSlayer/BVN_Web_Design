@@ -14,15 +14,14 @@ body {
     background-image: url(background.png);
 }
 
-
-
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
+	background-color: #000032;
     padding: 0;
     overflow: hidden;
-    background-color: #000032;
     font-family: 'PT Sans', sans-serif;
+	width: 960px;
 
 
 }
