@@ -156,8 +156,8 @@ form {
 
     height: 150px;
     width: 250px;
-    background-color: black;
     margin-bottom: 30px;
+    box-shadow: 12px 11px 17px -9px rgba(0,0,0,.3);
 }
 
 .left {
