@@ -85,6 +85,7 @@ form {
     background-color: white;
     width: 960px;
     height: 100%;
+    min-height: 100vh;
     box-shadow: black 0px 5px 10px;
 }
 
@@ -142,4 +143,31 @@ form {
   height: 150px;
   margin-right: 30px;
   margin-bottom: 15px;
+}
+
+.gallery-wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.gallery-img {
+
+    height: 150px;
+    width: 250px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    margin: 0 auto;
 }
