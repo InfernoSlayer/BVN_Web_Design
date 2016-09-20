@@ -149,3 +149,28 @@ form {
 .center {
     margin: 0 auto;
 }
+
+.resource-wrap {
+    height: 100%;
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+.resource-p {
+    height: 150px;
+    width: 250px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resource-header {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.resource-text {
+    font-size: 15px;
+}
