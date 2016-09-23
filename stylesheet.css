@@ -1,13 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=PT+Sans';
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
-@import 'https://fonts.googleapis.com/css?family=David+Libre|Oswald';
-@import 'https://fonts.googleapis.com/css?family=Lora';
+@import  https://fonts.googleapis.com/css?family=PT+Sans;
 
-body, html {
+@import  https://fonts.googleapis.com/css?family=Montserrat;
 
+@import  https://fonts.googleapis.com/css?family=David+Libre|Oswald;
+
+@import  https://fonts.googleapis.com/css?family=Lora;
+
+body,html {
     padding: 0;
     margin: 0;
-
 }
 
 body {
@@ -17,31 +18,28 @@ body {
 ul {
     list-style-type: none;
     margin: auto;
-	background-color: #000032;
+    background-color: #000032;
     padding: 0;
     overflow: hidden;
-    font-family: 'PT Sans', sans-serif;
-	width: 960px;
-
-
+    font-family: 'PT Sans',sans-serif;
+    width: 960px;
 }
-
 
 li {
     float: left;
 }
 
-li a, .dropbtn {
+li a,.dropbtn {
     display: inline-block;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
-    color: black;
+li a:hover,.dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #000;
     transition: background-color .25s;
 }
 
@@ -52,21 +50,22 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(153, 153, 153);
+    background-color: #999;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    color: white;
+    color: #fff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -79,14 +78,13 @@ form {
 }
 
 /* Index Content */
-
 .index-content {
     margin: 0 auto;
-    background-color: white;
+    background-color: #fff;
     width: 960px;
     height: 100%;
     min-height: 100vh;
-    box-shadow: black 0px 5px 10px;
+    box-shadow: #000 0 5px 10px;
 }
 
 .paragraph-wrap {
@@ -100,26 +98,25 @@ form {
 .index-header {
     padding-top: 20px;
     margin-top: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald',sans-serif;
     font-size: 2em;
 }
 
 .index-paragraph {
     width: 600px;
     font-size: 1em;
-    font-family: 'Lora', serif;
+    font-family: 'Lora',serif;
     padding-bottom: 15px;
     margin-bottom: 0;
-    
 }
 
 .bvn-img {
     width: 960px;
-    height: 524.6760982874162px;
+    height: 524.67609828742px;
 }
 
 .img-wrap {
-    height: 524.6760982874162px;
+    height: 524.67609828742px;
     width: 960px;
 }
 
@@ -131,7 +128,6 @@ form {
 }
 
 .gallery-img {
-
     height: 150px;
     width: 250px;
     margin-bottom: 30px;
@@ -154,14 +150,13 @@ form {
     height: 100%;
     width: 200px;
     margin: 0 auto;
-
 }
 
 .resource-p {
     height: 150px;
     width: 250px;
     margin-bottom: 30px;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 5px;
     text-align: center;
 }
