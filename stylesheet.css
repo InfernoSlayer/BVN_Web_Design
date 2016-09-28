@@ -165,3 +165,10 @@ form {
 .resource-text {
     font-size: 15px;
 }
+
+.footer {
+    width: 960px;
+    height: 250px;
+    background-color: silver;
+    margin: 0 auto;
+}
