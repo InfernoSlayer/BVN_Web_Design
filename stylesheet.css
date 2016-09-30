@@ -170,7 +170,7 @@ body {
 .sports {
     width: 50%;
     height: 100%;
-
+    float: left;
 }
 
 li.sports {
@@ -190,4 +190,10 @@ content-wrap-sports {
 .sports-buttons {
     margin-bottom: 5px;
     width: 150px;
+}
+
+.sports-content {
+    width: 50%;
+    height: 100%;
+    float: right;
 }
