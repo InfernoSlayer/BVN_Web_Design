@@ -13,7 +13,7 @@
     <link href="images/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
-<body style="overflow: hidden">
+<body>
      <!-- NavBar Start -->
     <ul class="navbar">
         <li><a href="index.html">Home</a>
@@ -48,38 +48,40 @@
     <div class="index-content">
         <div class="paragraph-wrap">
             <div class="sports">
+                <div class="content-wrap-sports">
                 <p class="index-header">Sports</p>
                 <p class="index-header" style="font-size: 20px">Fall Sports</p>
-                <form>
-                    <ul>
-                        <li>Cross-Country&nbsp;<input id="xc" type="radio" name="x"></li>
-                        <li>Football&nbsp;<input id="football" type="radio" name="x"></li>
-                        <li>Boy's Soccer&nbsp;<input id="boys-soccer" type="radio" name="x"></li>
-                        <li>Girl's Golf&nbsp;<input id="girlsgolf" type="radio" name="x"></li>
-                        <li>Girl's Tennis&nbsp;<input id="girlstennis" type="radio" name="x"></li>
-                        <li>Girl's Volleyball&nbsp;<input id="girlsvball" type="radio" name="x"></li>
+                
+                    <ul class="list-style-sports">
+                        <li><button class="sports-buttons" onclick="xc()">Cross-Country</button></li>
+                        <li><button class="sports-buttons" onclick="football()">Football</button></li>
+                        <li><button class="sports-buttons" onclick="soccer()">Boy's Soccer</button></li>
+                        <li><button class="sports-buttons" onclick="ggolf()">Girl's Golf</button></li>
+                        <li><button class="sports-buttons" onclick="gtennis()">Girl's Tennis</button></li>
+                        <li><button class="sports-buttons" onclick="gvball()">Girl's Volleyball</button></li>
                     </ul>
                 <p class="index-header" style="font-size: 20px">Winter Sports</p>
-                    <ul>
-                        <li>Boy's Basketball&nbsp;<input id="boysbball" type="radio" name="x"></li>
-                        <li>Girl's Basketball&nbsp;<input id="gbball" type="radio" name="x"></li>
-                        <li>Boy's Diving&nbsp;<input id="bdiving" type="radio" name="x"></li>
-                        <li>Boy's Swimming&nbsp;<input id="bswimming" type="radio" name="x"></li>
-                        <li>Wrestling&nbsp;<input id="wrestling" type="radio" name="x"></li>
-                        <li>Girl's Bowling&nbsp;<input id="gbowling" type="radio" name="x"></li>
+                    <ul class="list-style-sports">
+                        <li><button class="sports-buttons" onclick="boysbball()">Boy's Basketball</button></li>
+                        <li><button class="sports-buttons" onclick="gbball()">Girl's Basketball</button> </li>
+                        <li><button class="sports-buttons" onclick="bdiving()">Boy's Diving</button></li>
+                        <li><button class="sports-buttons"  onclick="bswimming()">Boy's Swimming</button></li>
+                        <li><button class="sports-buttons" onclick="wrestling()">Wrestling</button></li>
+                        <li><button class="sports-buttons" onclick="gbowling()">Girl's Bowling</button></li>
                     </ul>
                 <p class="index-header" style="font-size: 20px">Spring Sports</p>
-                    <ul>
-                        <li>Baseball<input id="baseball" type="radio" name="x"></li>
-                        <li>Girl's Diving<input id="gdiving" type="radio" name="x"></li>
-                        <li>Girl's Soccer<input id="gsoccer" type="radio" name="x"></li>
-                        <li>Girl's Softball<input id="gsoftball" type="radio" name="x"></li>
-                        <li>Girl's Swimming<input id="gswimming" type="radio" name="x"></li>
-                        <li>Boy's Tennis<input id="btennis" type="radio" name="x"></li>
-                        <li>Track and Field<input id="track" type="radio" name="x"></li>
-                        <li>Boy's Golf<input id="bgolf" type="radio" name="x"></li>
+                    <ul class="list-style-sports">
+                        <li><button class="sports-buttons" onclick="baseball()">Baseball</button></li>
+                        <li><button class="sports-buttons" onclick="gdiving()">Girl's Diving</button></li>
+                        <li><button class="sports-buttons" onclick="gsoccer()">Girl's Soccer</button></li>
+                        <li><button class="sports-buttons" onclick="gsoftball()">Girl's Softball</button></li>
+                        <li><button class="sports-buttons" onclick="gswimming()">Girl's Swimming</button></li>
+                        <li><button class="sports-buttons" onclick="btennis()">Boy's Tennis</button></li>
+                        <li><button class="sports-buttons" onclick="trackfield()">Track and Field</button></li>
+                        <li><button class="sports-buttons" onclick="bgolf()">Boy's Golf</button></li>
                     </ul>
-                </form>
+                
+                </div>
             </div>
         </div>
     </div>

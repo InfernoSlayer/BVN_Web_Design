@@ -168,6 +168,26 @@ body {
 }
 
 .sports {
-    width: 266.67px;
+    width: 50%;
     height: 100%;
+
+}
+
+li.sports {
+    width: 150px;
+    margin: 0 auto;
+}
+
+content-wrap-sports {
+    text-align: center;
+}
+
+.list-style-sports {
+    list-style-type: none;
+    
+}
+
+.sports-buttons {
+    margin-bottom: 5px;
+    width: 150px;
 }
