@@ -15,7 +15,7 @@ body {
     background-image: url(images/background.png);
 }
 
-ul {
+.navbar {
     list-style-type: none;
     margin: auto;
     background-color: #000032;
@@ -25,11 +25,11 @@ ul {
     width: 960px;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a,.dropbtn {
+.navbar li a,.dropbtn {
     display: inline-block;
     color: #fff;
     text-align: center;
@@ -37,13 +37,13 @@ li a,.dropbtn {
     text-decoration: none;
 }
 
-li a:hover,.dropdown:hover .dropbtn {
+.navbar li a:hover,.dropdown:hover .dropbtn {
     background-color: #fff;
     color: #000;
     transition: background-color .25s;
 }
 
-li.dropdown {
+.navbar li.dropdown {
     display: inline-block;
 }
 
@@ -71,11 +71,6 @@ li.dropdown {
     display: block;
 }
 
-form {
-    line-height: 47px;
-    float: right;
-    margin-right: 20px;
-}
 
 /* Index Content */
 .index-content {
@@ -171,4 +166,9 @@ form {
     height: 250px;
     background-color: silver;
     margin: 0 auto;
+}
+
+.sports {
+    width: 266.67px;
+    height: 100%;
 }
