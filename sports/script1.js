@@ -8,7 +8,7 @@ function xc() {
 	var display4 = '<a href="https://google.com"> <button>' + "Junior Varsity Girls" + '</button></a>';
 	var display5 = '<a href="https://google.com"> <button>' + "C Boys" + '</button></a>';
 	var display6 = '<a href="https://google.com"> <button>' + "C Girls" + '</button></a>';
-
+	
 	var displays = [display, display1, display2, display3, display4, display5, display6];
 
 	for (x = 0; x < displays.length; x++) {
