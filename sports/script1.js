@@ -12,7 +12,7 @@ function xc() {
 	var displays = [display, display1, display2, display3, display4, display5, display6];
 
 	for (x = 0; x < displays.length; x++) {
-		$('#content-list').append(displays[x]);
+		$('#content-list').append(displays[x] + '<br>');
 	}
 }
 
