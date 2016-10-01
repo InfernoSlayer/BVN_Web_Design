@@ -1,5 +1,6 @@
 
 function xc() {
+	$('#content').empty()
 	var display = '<a href="https://google.com"> <button>' + "Meet Information" + '</button></a>';
 	document.getElementById('content-list').innerHTML =	display;	 
 }
