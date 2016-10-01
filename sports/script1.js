@@ -48,8 +48,8 @@ function soccer() {
 
 function ggolf() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
 
 	var displays = [display, display1];
 
@@ -62,8 +62,8 @@ function ggolf() {
 
 function gtennis() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
 
 	var displays = [display, display1];
 
@@ -76,8 +76,8 @@ function gtennis() {
 
 function gvball() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
 
 	var displays = [display, display1];
 
@@ -90,10 +90,10 @@ function gvball() {
 
 function boysbball() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
-	var display2 = '<a class="link" href="https://google.com">' + "Sophomore" + '</a>';
-	var display3 = '<a class="link" href="https://google.com">' + "Freshmen" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
+	var display2 = '<a href="https://google.com"> <button>' + "Sophomore" + '</button></a>';
+	var display3 = '<a href="https://google.com"> <button>' + "Freshmen" + '</button></a>';
 
 	var displays = [display, display1, display2, display3];
 
@@ -106,10 +106,10 @@ function boysbball() {
 
 function gbball() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
-	var display2 = '<a class="link" href="https://google.com">' + "Silver" + '</a>';
-	var display3 = '<a class="link" href="https://google.com">' + "Navy" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
+	var display2 = '<a href="https://google.com"> <button>' + "Silver" + '</button></a>';
+	var display3 = '<a href="https://google.com"> <button>' + "Navy" + '</button></a>';
 
 	var displays = [display, display1, display2, display3];
 
@@ -122,9 +122,9 @@ function gbball() {
 
 function wrestling() {
 	$('#content-list').empty();
-	var display = '<a ="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
-	var display2 = '<a class="link" href="https://google.com">' + "Freshman" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
+	var display2 = '<a href="https://google.com"> <button>' + "Freshman" + '</button></a>';
 
 	var displays = [display, display1, display2];
 
@@ -137,8 +137,8 @@ function wrestling() {
 
 function gbowling() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
 
 	var displays = [display, display1];
 
@@ -151,10 +151,10 @@ function gbowling() {
 
 function baseball() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
-	var display2 = '<a class="link" href="https://google.com">' + "C" + '</a>';
-	var display3 = '<a class="link" href="https://google.com">' + "D" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
+	var display2 = '<a href="https://google.com"> <button>' + "C" + '</button></a>';
+	var display3 = '<a href="https://google.com"> <button>' + "D" + '</button></a>';
 
 	var displays = [display, display1, display2, display3];
 
@@ -167,8 +167,8 @@ function baseball() {
 
 function gsoftball() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display = '<a href="https://google.com"> <button>' + "Varsity" + '</button></a>';
+	var display1 = '<a href="https://google.com"> <button>' + "Junior Varsity" + '</button></a>';
 
 	var displays = [display, display1];
 
