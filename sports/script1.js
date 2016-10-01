@@ -6,14 +6,40 @@ function xc() {
 
 function football() {
 	$('#content-list').empty();
-	var display = '<a class="link" href="https://google.com">' + "a" + '</a>';
-	var display1 = '<a class="link" href="https://google.com">' + "b" + '</a>';
-	var display2 = '<a class="link" href="https://google.com">' + "c" + '</a>';
-	var display3 = '<a class="link" href="https://google.com">' + "d" + '</a>';
-	var display4 = '<a class="link" href="https://google.com">' + "e" + '</a>';
-	var display5 = '<a class="link" href="https://google.com">' + "f" + '</a>';
+	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
+	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
 
-	var displays = [display, display1, display2, display3, display4, display5];
+	var displays = [display, display1];
+
+	for (x = 0; x < displays.length; x++) {
+		$('#content-list').append(displays[x] + '<br>')
+	}
+
+	
+}
+
+function soccer() {
+	$('#content-list').empty();
+	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
+	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+	var display2 = '<a class="link" href="https://google.com">' + "C-Navy" + '</a>';
+	var display3 = '<a class="link" href="https://google.com">' + "C-Silver" + '</a>';
+
+	var displays = [display, display1, display2, display3];
+
+	for (x = 0; x < displays.length; x++) {
+		$('#content-list').append(displays[x] + '<br>')
+	}
+
+	
+}
+
+function ggolf() {
+	$('#content-list').empty();
+	var display = '<a class="link" href="https://google.com">' + "Varsity" + '</a>';
+	var display1 = '<a class="link" href="https://google.com">' + "Junior Varsity" + '</a>';
+
+	var displays = [display, display1];
 
 	for (x = 0; x < displays.length; x++) {
 		$('#content-list').append(displays[x] + '<br>')
