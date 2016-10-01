@@ -1,8 +1,8 @@
 
 function xc() {
-	$('#content').empty()
+	$('#content-list').empty();
 	var display = '<a href="https://google.com"> <button>' + "Meet Information" + '</button></a>';
-	document.getElementById('content-list').innerHTML =	display;	 
+	$('#content-list').append(display);
 }
 
 function football() {
