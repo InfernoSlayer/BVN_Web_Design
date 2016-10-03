@@ -18,10 +18,10 @@ function xc() {
 
 function football() {
 	$('#content-list').empty();
-	var display = '<a href="https://google.com"> <button class="link">' + "Varsity" + '</button></a>';
-	var display1 = '<a href="https://google.com"> <button class="link">' + "Junior Varsity" + '</button></a>';
+	var display = '<a href="football/index.html"> <button class="link">' + "Homepage" + '</button></a>';
+	
 
-	var displays = [display, display1];
+	var displays = [display];
 
 	for (x = 0; x < displays.length; x++) {
 		$('#content-list').append(displays[x] + '<br>')
