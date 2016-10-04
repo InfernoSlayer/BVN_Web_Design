@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
-
+@import 'https://fonts.googleapis.com/css?family=Ropa+Sans';
 body {
 	margin: 0;
 	padding: 0;
@@ -13,7 +13,8 @@ body {
 	padding-left: 0;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	opacity: .8;
+	box-shadow: 7px 13px 37px -8px rgba(0,0,0,0.9);
+	opacity: .85;
 
 }
 
@@ -32,6 +33,7 @@ body {
 	color: #d9d9d9;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
+
 	}
 
 .right1, .right2 {
@@ -39,6 +41,7 @@ body {
 	font-size: 20px;
 	height: 50px;
 	line-height: 50px;
+	opacity: .85;
 }
 
 .left1, .left2 {
@@ -46,6 +49,7 @@ body {
 	font-size: 20px;
 	height: 50px;
 	line-height: 50px;
+
 }
 
 .center {
@@ -68,4 +72,36 @@ body {
 a:hover {
 	background-color: #003366;
 	color: white;
+	
+}
+
+.top-of-page {
+	width: 100%;
+	height: 700px;
+	background-image: url(images/homepage1.jpg);
+	margin: 0 auto;
+}
+
+hr {
+	margin: 0;
+}
+
+.title {
+	margin: 70px auto 0px auto;
+	height: 500px;
+	width: 500px;
+	background-color: rgba(242, 242, 242, .9);
+	border-radius: 50%;
+	border: 1px solid silver;
+	border-style: inset;
+}
+
+.title-header {
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 60px;
+	margin-bottom: 5px;
+}
+
+.thing1 {
+	margin-top: 30%;
 }
