@@ -1,0 +1,46 @@
+body 
+{
+	font-family: arial;
+	font-size: 12px;
+	text-align:center; 
+	background: #3A3A3A url('/images/themes/C_CEMENT/Background_Cement.jpg') repeat-x;
+}
+#mainContainer
+{
+    background-color:#f5f5f5;
+    clear:both;
+    min-height:400px;
+}
+/** EVERYTHING FOR THE FOOTER **/
+#footer
+{
+    clear:both;
+	text-align:center;
+	padding: 10px 0px 10px 0px;
+	font-size: 12px;
+	color: #FFF;
+    background: #000; 
+}
+
+#footer a
+{
+	color: #FFF;
+}
+
+
+#iMainMenu a {
+	background: url('/images/iMainMenuSeperator.gif') bottom right no-repeat;
+	color: #FFF;
+}
+
+#iMainMenu a:hover {
+	background: #F8F8F8 url('/images/iMainMenuHover.gif') bottom center no-repeat;
+	color: #222222;
+}
+#horizontalMenu
+{
+    background: #000000;
+}
+#iMainMenu li {
+    border-right: 1px solid #222222;
+}
