@@ -105,3 +105,39 @@ hr {
 .thing1 {
 	margin-top: 30%;
 }
+
+#content-wrapper {
+background: #f7f7f7 url("images/bg04.png");
+border-top: solid 1px #fff;
+padding: 45px 0 45px 0;
+}
+			
+#content section {
+background: #fff;
+padding: 40px 30px 45px 30px;
+box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+margin: 0 0 10% 0;
+}
+			
+#content h2 {
+font-size: 1.8em;
+color: #373f42;
+margin: 0 0 0.25em 0;
+}
+
+#content h3 {
+color: #96a9b5;
+font-size: 1.25em;
+}
+
+.container {
+margin-left: auto;
+margin-right: auto;
+}
+
+.row {
+border-bottom: solid 1px transparent;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
