@@ -158,17 +158,19 @@ hr {
 /*The following code is a test to move over and clean up all the other code from the other CSS files. */
 
 #staff {
-    max-width:1000px;
-	margin:0 auto;
-    padding:0px;
-    font-size:0;
-    list-style:none;
+    width: 940px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #804000;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
 #staff li {
     display: inline-block;
     width:19%;
     vertical-align:middle;
     box-sizing:border-box;
+	padding: 5px;
+	position: relative;
 }
         
 .staff-cell {
@@ -178,10 +180,11 @@ hr {
 }
      
 .staff-img {
-    display:block;
+    display: block;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border:none;
+	border-radius: 10px;
 }
 
         
@@ -200,6 +203,7 @@ hr {
 }
 #staff li:hover .staff-overlay {
     opacity:0.8;
+	border-radius: 10px;
 }
 
 .staff-text {
@@ -219,4 +223,5 @@ hr {
 #staff li:hover .staff-text {
     transform:translateY(0px);
     opacity:0.9;
+	
 }
