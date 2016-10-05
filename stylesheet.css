@@ -79,6 +79,7 @@ body {
     width: 960px;
     height: 100%;
     box-shadow: #000 0 5px 10px;
+    min-height: 100vh;
 }
 
 .paragraph-wrap {
