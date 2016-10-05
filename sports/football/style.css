@@ -147,3 +147,26 @@ hr {
 .element h3 {
 	width: 100px;
 }
+
+/*The following code is a test to move over and clean up all the other code from the other CSS files. */
+
+
+.playerbox
+{
+    background-color:#FFF;
+	border: none;
+	padding:5px;
+	margin-top:5px;
+}
+
+.cBox
+{
+    background-color:#FFF;
+    text-align: left;
+	width: 100%;
+}
+
+.sponsors
+{
+    margin-top:25px;
+}
