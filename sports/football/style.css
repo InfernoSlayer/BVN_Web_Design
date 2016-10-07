@@ -161,8 +161,10 @@ hr {
     width: 940px;
   margin: 0 auto;
   padding: 5px;
-  background: #804000;
+  background: #0066cc;
   box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  min-height: 100vh;
+  box-shadow: 0px 20px 283px -9px rgba(0,0,0,0.55);
 }
 #staff li {
     display: inline-block;
