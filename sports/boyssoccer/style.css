@@ -1,0 +1,16 @@
+.box {
+    border-style: solid ;
+    width: 50%;
+    margin: auto;
+    background-color: #2BFFD1;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.bg {
+    background-image: url(https://pixabay.com/static/uploads/photo/2016/09/30/23/34/background-1706632_960_720.jpg);
+    width: 50%;
+    margin: auto;
+}
