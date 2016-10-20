@@ -4,12 +4,42 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+<div id="openNav">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+    document.getElementById("openNav").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("openNav").style.marginLeft= "0";
+}
+</script>
 <div class="content">
+
 <div class="box">
+
 <h1>Boy's Soccer</h1>
 </div>
+
 </div>
-<div class="bg">
+<div id="sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="http://www.bluevalleyk12.org/education/sportszone/sportszone.php?sectiondetailid=10010&">Home Page</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98599&">KAMO Tournament Info</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98433&">Varsity</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98432&">Junior Varisty</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98478&">C-Navy</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98479&">C-Silver</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/docmgr/default.php?sectiondetailid=98488&">Handbook</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/links/links.php?sectiondetailid=10012&">Useful Links</a><br>
+  <a href="http://www.bluevalleyk12.org/education/components/scrapbook/default.php?sectiondetailid=31346&">Team History</a><br>
 </div>
+
+
 </body>
 </html>

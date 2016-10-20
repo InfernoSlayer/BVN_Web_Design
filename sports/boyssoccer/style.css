@@ -3,14 +3,47 @@
     width: 50%;
     margin: auto;
     background-color: #2BFFD1;
+    border-radius: 25px;
 }
 
 .content h1 {
     text-align: center;
 }
 
-.bg {
-    background-image: url(https://pixabay.com/static/uploads/photo/2016/09/30/23/34/background-1706632_960_720.jpg);
-    width: 50%;
-    margin: auto;
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #C0C0C0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000080;
+    display: block;
+    transition: 0.3s
+}
+
+.sidebar a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#openNav {
+    transition: margin-left .5s;
+    padding: 16px;
 }
