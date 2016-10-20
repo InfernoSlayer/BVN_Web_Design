@@ -26,7 +26,7 @@ function football() {
 
 function soccer() {
 	$('#content-list').empty();
-	var display = '<a href="https://google.com"> <button class="link">' + "Boy's Soccer Homepage" + '</button></a>';
+	var display = '<a href="boyssoccer/index.html"> <button class="link">' + "Boy's Soccer Homepage" + '</button></a>';
 	var displays = [display];
 
 	for (x = 0; x < displays.length; x++) {
