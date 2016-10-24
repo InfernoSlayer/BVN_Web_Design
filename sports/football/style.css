@@ -147,7 +147,8 @@ hr {
 }
 
 .element img {
-	margin: 30px;
+	margin: 0 auto;
+	margin-top: 20.5px;
 }
 
 .element h3 {
@@ -161,7 +162,7 @@ hr {
     width: 940px;
   margin: 0 auto;
   padding: 5px;
-  background: #0066cc;
+  background: rgb(0, 153, 255);
   box-shadow: 0 1px 2px rgba(0,0,0,.3);
   min-height: 100vh;
   box-shadow: 0px 20px 283px -9px rgba(0,0,0,0.55);
@@ -174,6 +175,11 @@ hr {
 	padding: 5px;
 	position: relative;
 }
+
+.center-staff .staff-img {
+	margin-top: 0;
+	padding-top: 20.5px;
+}
         
 .staff-cell {
     display:block;
@@ -183,10 +189,9 @@ hr {
      
 .staff-img {
     display: block;
-    width: 100%;
-    height: 200px;
     border:none;
-	border-radius: 10px;
+    height: 250px;
+    width: 170.7317073170732px;
 }
 
         
@@ -380,6 +385,7 @@ hr {
 	background-color: black;
 	width: 960px;
 	margin: 0 auto;
+	background: #006bb3;
 }
 
 .staff-row {
@@ -389,8 +395,7 @@ hr {
 
 .element {
 	width: 33%;
-	height: 200px;
-	background: gray;
+	height: 300px;
 	position: relative;
 }
 
